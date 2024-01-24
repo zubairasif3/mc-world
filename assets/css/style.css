@@ -49,6 +49,12 @@ body {
     background-position: 0px -10px;
     background-size: 100%;
 }
+.hero-section-1{
+    background-image: url(../images/hero-bg.png);
+}
+.hero-section-2{
+    background-image: url(../images/hero-bg.png);
+}
 .hero-section .container{
     min-height: calc(100vh - 170px);
     display: flex;
