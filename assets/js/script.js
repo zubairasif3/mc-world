@@ -1,3 +1,4 @@
+// carousels scrcipt
 jQuery("#hero-carousel").owlCarousel({
     autoplay: false,
     rewind: false,
@@ -78,3 +79,19 @@ $( ".owl-prev").html('<i class="fa fa-long-arrow-alt-left"></i>');
 $( ".owl-next").html('<i class="fa fa-long-arrow-alt-right"></i>');
 $( "#video-carousel .owl-prev").html('<i class="fa fa-arrow-left"></i>');
 $( "#video-carousel .owl-next").html('<i class="fa fa-arrow-right"></i>');
+
+
+// video popup script
+
+
+$(document).ready(function() {
+  $('.popup-video1').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+
+      fixedContentPos: false
+  });
+});

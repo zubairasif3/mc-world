@@ -31,6 +31,21 @@ body {
     line-height: normal;
     color: #000;
 }
+.dropdown-toggle::after{
+    display: none;
+}
+.navbar-toggler {
+    outline: 0px !important;
+    box-shadow: none !important;
+    padding: 0px;
+}
+.navbar-toggler i {
+    font-size: 24px;
+    font-size: 24px;
+    border: 1px solid #000;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
 .btn-main{
     border-radius: 9px;
     background: #B38E01;
@@ -441,6 +456,14 @@ body {
         background-position: center;
         background-size: cover;
     }
+    .hero-section .heading{
+        font-size: 30px;
+    }
+    .hero-section .btn-hero,
+    .hero-section .btn-main{
+        font-size: 18px;
+        padding: 6px 14px;
+    }
     .special-section .row .col-12:first-child .img-content .title{
         margin-bottom: 20px;
     }
@@ -471,6 +494,9 @@ body {
     .portfolio-section .feature-portfolio .fp-content .right-content .imgs img{
         max-height: 240px;
     }
+    .testimonial-section .testimonial-card .text {
+        font-size: 26px;
+    }
 
     #video-carousel {
         max-width: 85%;
@@ -484,5 +510,13 @@ body {
     }
     #video-carousel .owl-nav button.owl-next {
         right : -24px;
+    }
+}
+@media screen and (max-width: 400px){
+    .hero-section .heading{
+        font-size: 28px;
+    }
+    .hero-section .text{
+        font-size: 24px;
     }
 }
